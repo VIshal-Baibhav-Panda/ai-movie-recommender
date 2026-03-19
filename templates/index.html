@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MovieAI</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="/" class="logo">🎬 MovieAI</a>
+    <div class="links">
+        <a href="/overview">Overview</a>
+        <a href="/contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>AI Movie Recommender</h1>
+
+    <div class="search-box">
+        <input id="movie" placeholder="Search like Interstellar..." />
+        <button onclick="getRecommendation()">Search</button>
+    </div>
+</div>
+
+<!-- RESULTS -->
+<div class="container">
+    <h2>Recommendations</h2>
+    <div id="result" class="movie-list"></div>
+</div>
+
+<footer>
+    © 2026 Vishal • Codec Internship
+</footer>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

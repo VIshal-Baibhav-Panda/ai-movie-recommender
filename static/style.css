@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fb;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+.search-box input {
+  padding: 12px;
+  width: 300px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* RESULTS */
+.container {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.movie-card {
+  display: flex;
+  gap: 15px;
+  background: white;
+  padding: 18px;
+  border-radius: 16px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.poster {
+  font-size: 30px;
+}
+
+.info h3 {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  margin: 30px;
+}
+.info p {
+  color: #555;
+  font-size: 14px;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+.movie-card img {
+  width: 80px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.movie-card {
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.container {
+  width: 60%;
+  margin: 40px auto;
+  line-height: 1.6;
+}
+
+/* NAV BUTTON STYLE */
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #333;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.nav-btn:hover {
+  background: #4f46e5;
+  color: white;
+}
+
+/* ACTIVE PAGE */
+.nav-btn.active {
+  background: #4f46e5;
+  color: white;
+}
+
+.nav-btn {
+  transform: scale(1);
+}
+
+.nav-btn:hover {
+  transform: scale(1.05);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.container h3 {
+  margin-top: 20px;
+}
+
+.container p {
+  color: #555;
+}
